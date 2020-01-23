@@ -25,7 +25,7 @@ const Home = () => {
         <center>
           <img src="/logobrand66.png" width="500px"/>
         </center>
-        <h1 className="title">สูตรบาคาร่า UFABET 66</h1>
+        <h1 className="title">สูตรบาคาร่า</h1>
         {/* <p className="description">
           To get started, edit the <code>pages/index.js</code> or{' '}
           <code>pages/api/date.js</code> files, then save to reload.
