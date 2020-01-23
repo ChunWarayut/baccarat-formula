@@ -17,11 +17,12 @@ const Home = () => {
 
   return (
     <div>
-      <Head title="Home" />
-      <Nav />
+      {/* <Head title="Home" />
+      <Nav /> */}
+      <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet"></link>
 
       <div className="hero">
-        <h1 className="title">Welcome to Next!</h1>
+        <h1 className="title">โปรแกรมสูตรบาคาร่า</h1>
         <p className="description">
           To get started, edit the <code>pages/index.js</code> or{' '}
           <code>pages/api/date.js</code> files, then save to reload.
@@ -37,6 +38,9 @@ const Home = () => {
             <span className="loading"></span>
           )}
         </p>
+
+
+
 
         <div className="row">
           <Link href="https://github.com/zeit/next.js#setup">
@@ -58,9 +62,18 @@ const Home = () => {
             </a>
           </Link>
         </div>
+{/*  */}
+
+
+
+{/*  */}
+
       </div>
 
       <style jsx>{`
+      *{
+        font-family: 'Prompt', sans-serif;
+      }
         .hero {
           width: 100%;
           color: #333;
