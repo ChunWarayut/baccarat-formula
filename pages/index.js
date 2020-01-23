@@ -40,7 +40,7 @@ const Home = () => {
         </p>
 
 
-
+{/* 
 
         <div className="row">
           <Link href="https://github.com/zeit/next.js#setup">
@@ -61,7 +61,7 @@ const Home = () => {
               <p>Was this tool helpful? Let us know how we can improve it!</p>
             </a>
           </Link>
-        </div>
+        </div> */}
 {/*  */}
 
 
