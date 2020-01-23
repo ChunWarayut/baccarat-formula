@@ -84,7 +84,7 @@ const Home = () => {
         .title {
           margin: 0;
           width: 100%;
-          padding-top: 80px;
+          padding-top: 20px;
           line-height: 1.15;
           font-size: 48px;
         }
