@@ -22,13 +22,16 @@ const Home = () => {
       <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet"></link>
 
       <div className="hero">
-        <h1 className="title">โปรแกรมสูตรบาคาร่า</h1>
-        <p className="description">
+        <center>
+          <img src="/logobrand66.png" width="500px"/>
+        </center>
+        <h1 className="title">สูตรบาคาร่า UFABET 66</h1>
+        {/* <p className="description">
           To get started, edit the <code>pages/index.js</code> or{' '}
           <code>pages/api/date.js</code> files, then save to reload.
-        </p>
+        </p> */}
 
-        <p className="row date">
+        {/* <p className="row date">
           The date is:&nbsp;{' '}
           {date ? (
             <span>
@@ -37,7 +40,7 @@ const Home = () => {
           ) : (
             <span className="loading"></span>
           )}
-        </p>
+        </p> */}
 
 
 {/* 
