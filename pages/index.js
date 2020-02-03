@@ -46,28 +46,28 @@ const Home = () => {
 			<link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet" />
 			<div className="hero">
 				<center>
-					<img className="pt-5" src="/logobrand66.png" width="500px" />
+					<img className="pt-5 sss" src="/logobrand66.png" width="500px" />
 				</center>
 				<h1 className="title">สูตรบาคาร่า</h1>
 				{!lodding ? (
 					<p className="description pt-1">
 						{cutz ? cutz > 66.6666666667 ? (
 							<p className="description">
-								<img src="/BB.png" align="center" width="50px" /><br/>
+								<img src="/BB.png" align="center" width="50px" className="sss" /><br/>
 								<p className="pt-1">
 									ตานี้เดิมพัน: เจ้ามือ
 								</p>
 							</p>
 						) : cutz > 33.3333333333 ? (
 							<p className="description">
-								<img src="/TT.png" align="center" width="50px" /><br/>
+								<img src="/TT.png" align="center" width="50px" className="sss" /><br/>
 								<p className="pt-1">
 									ตานี้เดิมพัน: เสมอ
 								</p>
 							</p>
 						) : (
 							<p className="description">
-								<img src="/PP.png" align="center" width="50px" /><br/>
+								<img src="/PP.png" align="center" width="50px" className="sss" /><br/>
 								<p className="pt-1">
 									ตานี้เดิมพัน: ผู้เล่น
 								</p>
@@ -78,7 +78,7 @@ const Home = () => {
 					</p>
 				) : (
 					<p className="title">
-						<img src="/load.gif" align="center" width="100px" />
+						<img src="/load.gif" align="center" className="sss" width="100px" />
 					</p>
 				)}
 				<center class="pt-1">
@@ -176,6 +176,10 @@ const Home = () => {
 					padding: 0 !important;
 					margin: 0 !important;
 				}
+				.sss {
+					-webkit-filter: drop-shadow(5px 5px 5px #222 );
+					filter: drop-shadow(5px 5px 5px #222);
+				}
 				.hero {
 					// background-color: #e7eff1;
 					background-image: url('/เว็บพนันบอลออนไลน์-สะดวก-สบาย-เล่นกว่าที่.jpg');
@@ -198,10 +202,12 @@ const Home = () => {
 					padding-top: 20px;
 					line-height: 1.15;
 					font-size: 48px;
+					text-shadow: 2px 2px #FFF;
 				}
 				.title,
 				.description {
 					text-align: center;
+					text-shadow: 2px 2px #FFF;
 				}
 				
 			`}</style>
