@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Head from '../components/head';
 
 const Home = () => {
-	const [ date, setDate ] = useState(null);
-	const [ box, setBox ] = useState([
+	const [ box ] = useState([
 		{ s: 0, e: 6 },
 		{ s: 7, e: 12 },
 		{ s: 13, e: 18 },
@@ -21,12 +20,12 @@ const Home = () => {
 
 	useEffect(() => {
 		// console.log(array);
-		async function getDate() {
-			const res = await fetch('/api/date');
-			const newDate = await res.json();
-			setDate(newDate);
-		}
-		getDate();
+		// async function getDate() {
+		//	const res = await fetch('/api/date');
+		//	const newDate = await res.json();
+		//	setDate(newDate);
+		// }
+		// getDate();
 	}, []);
 
 	async function InsertBACARAT(data) {
@@ -168,10 +167,8 @@ const Home = () => {
 			<style jsx>{`
 				* {
 					font-family: 'Prompt', sans-serif;
-					background-color: #e7eff1;
 				}
 				body {
-					background-color: #e7eff1;
 					width: 100vw;
 					height: 100vh;
 				}
@@ -180,7 +177,17 @@ const Home = () => {
 					margin: 0 !important;
 				}
 				.hero {
-					background-color: #e7eff1;
+					// background-color: #e7eff1;
+					background-image: url('/เว็บพนันบอลออนไลน์-สะดวก-สบาย-เล่นกว่าที่.jpg');
+					
+					background-repeat: no-repeat;
+					background-position: center center;
+					background-attachment: fixed;
+					-o-background-size: 100% 100%, auto;
+					-moz-background-size: 100% 100%, auto;
+					-webkit-background-size: 100% 100%, auto;
+					background-size: 100% 100%, auto;
+					
 					width: 100vw;
 					height: 100vh;
 					color: #333;
@@ -196,13 +203,7 @@ const Home = () => {
 				.description {
 					text-align: center;
 				}
-				.row {
-					max-width: 880px;
-					margin: 80px auto 40px;
-					display: flex;
-					flex-direction: row;
-					justify-content: space-around;
-				}
+				
 			`}</style>
 		</div>
 	);
